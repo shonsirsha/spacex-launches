@@ -43,7 +43,7 @@ function Home() {
 			<Link to={"/past-launches"}>See all past launches</Link>
 			<br />
 			<br />
-			<a href="https://spacex.org">Go to SpaceX Website</a>
+			<a href="https://spacex.com">Go to SpaceX Website</a>
 		</div>
 	);
 }
