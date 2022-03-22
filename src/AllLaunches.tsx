@@ -81,7 +81,7 @@ function AllLaunches() {
 				/>
 			</div>
 			<p className="mt-1" id="num-of-launches-display-paragraph">
-				Displaying {renderedLaunches.length} launches | Displaying{" "}
+				Displaying {renderedLaunches.length} launches | Sorting launches from{" "}
 				{oldestToNewest ? "Oldest to Newest" : "Newest to Oldest"}
 			</p>
 
@@ -89,7 +89,9 @@ function AllLaunches() {
 
 			{notFound ? (
 				<div className="flight-card-container">
-					No launch with Flight Nr / Name {searchTerm} can be found
+					<p id="infoText">
+						No launch with Flight Nr / Name {searchTerm} can be found
+					</p>
 				</div>
 			) : (
 				<div className="flight-card-container">
@@ -97,12 +99,12 @@ function AllLaunches() {
 						? "Loading..."
 						: renderedLaunches.map((launch) => (
 								<div className="card">
-									<h2>{launch.name}</h2>
+									<p className="launchName">{launch.name}</p>
 									<p>
 										<kbd>Flight Num: {launch.flight_number}</kbd>
 									</p>
 
-									<kbd>{launch.date_local}</kbd>
+									<p className="date">{launch.date_local}</p>
 									<div
 										className={`status ${
 											launch.success ? `success` : `failed`

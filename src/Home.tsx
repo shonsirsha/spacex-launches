@@ -31,12 +31,12 @@ function Home() {
 							.reverse()
 							.map((launch) => (
 								<div className="card">
-									<h2>{launch.name}</h2>
+									<p className="launchName">{launch.name}</p>
 									<p>
 										<kbd>Flight Num: {launch.flight_number}</kbd>
 									</p>
 
-									<kbd>{launch.date_local}</kbd>
+									<p className="date">{launch.date_local}</p>
 								</div>
 							))}
 			</div>
