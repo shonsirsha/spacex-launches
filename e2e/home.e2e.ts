@@ -19,7 +19,7 @@ test.describe("Renders Upcoming Launches Cards", () => {
 	test("If cards are rendered", async ({ page }) => {
 		await page.waitForSelector(".card", { state: "attached" });
 		const cards = (await page.$$(".card")).length;
-		expect(cards).toEqual(2);
+		expect(cards).toBeGreaterThanOrEqual(1);
 	});
 });
 

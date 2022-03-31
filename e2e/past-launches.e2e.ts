@@ -45,7 +45,7 @@ test.describe("Searching, displaying/rendering, and sorting launches", () => {
 
 		await expect(infoTextAfterToggle).toContainText("Newest to Oldest");
 	});
-	test(`If clicking "Toggle Sort" button will properly toggle the sorting of launch cards and info text`, async ({
+	test(`If clicking "Toggle Sort" button will properly toggle the sorting of launch cards`, async ({
 		page,
 	}) => {
 		const firstLaunchBeforeToggle = await page
@@ -73,7 +73,7 @@ test.describe("Searching, displaying/rendering, and sorting launches", () => {
 
 		//Having label associations is essential for accessibility,
 		//helping remove barriers for people with disabilities.
-		await page.fill(
+		await page.type(
 			"text=Search by Flight Number or Name",
 			SEARCH_TERM_WITH_MULTIPLE_RESULT
 		);
@@ -126,13 +126,21 @@ test.describe("Card rendering", () => {
 	});
 	test(`Any launch card to have proper border colour when hovered`, async ({
 		page,
-	}) => {
+	}, testInfo) => {
 		page.locator(".card").nth(0).hover();
 		await delay(650); // wait for hover transition to be completed
-		const successfulLaunchCard = page.locator(".card").nth(0);
-		const color = await successfulLaunchCard.evaluate((element) =>
+		const card = page.locator(".card").nth(0);
+		const color = await card.evaluate((element) =>
 			window.getComputedStyle(element).getPropertyValue("border-bottom-color")
 		);
+		const cardScreenshot = await card.screenshot({
+			path: `./e2e/screenshots/${Date.now()}.png`,
+		});
+		await testInfo.attach("screenshot", {
+			body: cardScreenshot,
+			contentType: "image/png",
+		});
+
 		expect(color).toBe(ACTIVE_COLOR); // blue
 	});
 });
