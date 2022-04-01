@@ -40,9 +40,9 @@ test.describe("Card rendering", () => {
 	test(`Any launch card to have proper border colour when hovered`, async ({
 		page,
 	}) => {
-		page.locator(".card").nth(0).hover();
-		await delay(650); // wait for hover transition to be completed
 		const card = page.locator(".card").nth(0);
+		card.hover();
+		await delay(1000);
 		const color = await card.evaluate((element) =>
 			window.getComputedStyle(element).getPropertyValue("border-bottom-color")
 		);
