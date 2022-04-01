@@ -98,7 +98,7 @@ const config: PlaywrightTestConfig = {
 		port: 3000,
 		reuseExistingServer: !process.env.CI,
 	},
-	testMatch: ["card.e2e.ts"],
+	testMatch: ["*.e2e.ts"],
 };
 
 export default config;
