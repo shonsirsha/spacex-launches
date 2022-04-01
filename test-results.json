@@ -1,0 +1,1369 @@
+{
+  "config": {
+    "forbidOnly": false,
+    "fullyParallel": false,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "preserveOutput": "always",
+    "projects": [
+      {
+        "outputDir": "/Users/seansaoirse/Desktop/react-pw/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "chromium",
+        "testDir": "/Users/seansaoirse/Desktop/react-pw/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "*.e2e.ts"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/seansaoirse/Desktop/react-pw/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "name": "firefox",
+        "testDir": "/Users/seansaoirse/Desktop/react-pw/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "*.e2e.ts"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ],
+      [
+        "html",
+        null
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "rootDir": "/Users/seansaoirse/Desktop/react-pw/e2e",
+    "quiet": false,
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.20.0",
+    "workers": 4,
+    "webServer": {
+      "command": "npm run start",
+      "port": 3000,
+      "reuseExistingServer": true
+    },
+    "__testGroupsCount": 6
+  },
+  "suites": [
+    {
+      "title": "card.e2e.ts",
+      "file": "card.e2e.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Card rendering",
+          "file": "card.e2e.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Launch / flight name rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 5812,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Launch-flight-name-rendered-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 14,
+              "column": 2
+            },
+            {
+              "title": "Launch / flight date rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1219,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Launch-flight-date-rendered-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 17,
+              "column": 2
+            },
+            {
+              "title": "Launch / flight number rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1055,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Launch-flight-number-rendered-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 20,
+              "column": 2
+            },
+            {
+              "title": "Failed launch card to have proper colour",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1212,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Failed-launch-card-to-have-proper-colour-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 24,
+              "column": 2
+            },
+            {
+              "title": "Successful launch card to have proper colour",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1317,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Successful-launch-card-to-have-proper-colour-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 31,
+              "column": 2
+            },
+            {
+              "title": "Any launch card to have proper border colour when hovered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 0,
+                      "status": "passed",
+                      "duration": 1828,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Any-launch-card-to-have-proper-border-colour-when-hovered-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 40,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Card rendering",
+          "file": "card.e2e.ts",
+          "line": 10,
+          "column": 6,
+          "specs": [
+            {
+              "title": "Launch / flight name rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 7425,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Launch-flight-name-rendered-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 14,
+              "column": 2
+            },
+            {
+              "title": "Launch / flight date rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1138,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Launch-flight-date-rendered-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 17,
+              "column": 2
+            },
+            {
+              "title": "Launch / flight number rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1164,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Launch-flight-number-rendered-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 20,
+              "column": 2
+            },
+            {
+              "title": "Failed launch card to have proper colour",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1221,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Failed-launch-card-to-have-proper-colour-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 24,
+              "column": 2
+            },
+            {
+              "title": "Successful launch card to have proper colour",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1100,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Successful-launch-card-to-have-proper-colour-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 31,
+              "column": 2
+            },
+            {
+              "title": "Any launch card to have proper border colour when hovered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1876,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/card.e2e.ts-Card-rendering-Any-launch-card-to-have-proper-border-colour-when-hovered-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "card.e2e.ts",
+              "line": 40,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "home.e2e.ts",
+      "file": "home.e2e.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Renders header elements on the page correctly",
+          "file": "home.e2e.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If page correctly renders header text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 4044,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Renders-header-elements-on-the-page-correctly-If-page-correctly-renders-header-text-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 8,
+              "column": 2
+            },
+            {
+              "title": "If page correctly renders sub-header (h2) text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 881,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Renders-header-elements-on-the-pag-a267e-ly-If-page-correctly-renders-sub-header-h2-text-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 12,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Renders Upcoming Launches Cards",
+          "file": "home.e2e.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If cards are rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 984,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Renders-Upcoming-Launches-Cards-If-cards-are-rendered-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 19,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Link & anchor elements behaviours",
+          "file": "home.e2e.ts",
+          "line": 26,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If clicking 'See All Launches' link will redirect to /past-launches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 606,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Link-anchor-elements-behaviours-If-2b26d-ll-Launches-link-will-redirect-to-past-launches-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 28,
+              "column": 2
+            },
+            {
+              "title": "If clicking 'Go to SpaceX Website' link will redirect to https://www.spacex.com/",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1048,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Link-anchor-elements-behaviours-If-b1482-ite-link-will-redirect-to-https-www-spacex-com--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 40,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Renders header elements on the page correctly",
+          "file": "home.e2e.ts",
+          "line": 7,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If page correctly renders header text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 1764,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Renders-header-elements-on-the-page-correctly-If-page-correctly-renders-header-text-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 8,
+              "column": 2
+            },
+            {
+              "title": "If page correctly renders sub-header (h2) text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 387,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Renders-header-elements-on-the-pag-a267e-ly-If-page-correctly-renders-sub-header-h2-text-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 12,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Renders Upcoming Launches Cards",
+          "file": "home.e2e.ts",
+          "line": 18,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If cards are rendered",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 824,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Renders-Upcoming-Launches-Cards-If-cards-are-rendered-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 19,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Link & anchor elements behaviours",
+          "file": "home.e2e.ts",
+          "line": 26,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If clicking 'See All Launches' link will redirect to /past-launches",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 422,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Link-anchor-elements-behaviours-If-2b26d-ll-Launches-link-will-redirect-to-past-launches-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 28,
+              "column": 2
+            },
+            {
+              "title": "If clicking 'Go to SpaceX Website' link will redirect to https://www.spacex.com/",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 829,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/home.e2e.ts-Link-anchor-elements-behaviours-If-b1482-ite-link-will-redirect-to-https-www-spacex-com--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "home.e2e.ts",
+              "line": 40,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "past-launches.e2e.ts",
+      "file": "past-launches.e2e.ts",
+      "line": 0,
+      "column": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Renders header elements on the page correctly",
+          "file": "past-launches.e2e.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If page correctly renders sub-header (h2) text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 4057,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Renders-header-elements-o-c08f9-ly-If-page-correctly-renders-sub-header-h2-text-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 10,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Link & anchor elements behaviours",
+          "file": "past-launches.e2e.ts",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If clicking '< Go back home' link will redirect to /",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1314,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Link-anchor-elements-behaviours-If-clicking-Go-back-home-link-will-redirect-to--chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 18,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Searching, displaying/rendering, and sorting launches",
+          "file": "past-launches.e2e.ts",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If clicking \"Toggle Sort\" button will properly toggle the info text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1224,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-042d0--Sort-button-will-properly-toggle-the-info-text-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 34,
+              "column": 2
+            },
+            {
+              "title": "If clicking \"Toggle Sort\" button will properly toggle the sorting of launch cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1263,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-76367-ill-properly-toggle-the-sorting-of-launch-cards-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 44,
+              "column": 2
+            },
+            {
+              "title": "If searching for Falcon will render appropriate number of cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1448,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-cec9c--Falcon-will-render-appropriate-number-of-cards-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 61,
+              "column": 2
+            },
+            {
+              "title": "If searching for DemoSat will render appropriate info text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1329,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-9f487-g-for-DemoSat-will-render-appropriate-info-text-chromium/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 80,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Renders header elements on the page correctly",
+          "file": "past-launches.e2e.ts",
+          "line": 9,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If page correctly renders sub-header (h2) text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 1510,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Renders-header-elements-o-c08f9-ly-If-page-correctly-renders-sub-header-h2-text-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 10,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Link & anchor elements behaviours",
+          "file": "past-launches.e2e.ts",
+          "line": 16,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If clicking '< Go back home' link will redirect to /",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 403,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Link-anchor-elements-behaviours-If-clicking-Go-back-home-link-will-redirect-to--firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 18,
+              "column": 2
+            }
+          ]
+        },
+        {
+          "title": "Searching, displaying/rendering, and sorting launches",
+          "file": "past-launches.e2e.ts",
+          "line": 28,
+          "column": 6,
+          "specs": [
+            {
+              "title": "If clicking \"Toggle Sort\" button will properly toggle the info text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 1021,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-042d0--Sort-button-will-properly-toggle-the-info-text-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 34,
+              "column": 2
+            },
+            {
+              "title": "If clicking \"Toggle Sort\" button will properly toggle the sorting of launch cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 1009,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-76367-ill-properly-toggle-the-sorting-of-launch-cards-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 44,
+              "column": 2
+            },
+            {
+              "title": "If searching for Falcon will render appropriate number of cards",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 1000,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-cec9c--Falcon-will-render-appropriate-number-of-cards-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 61,
+              "column": 2
+            },
+            {
+              "title": "If searching for DemoSat will render appropriate info text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectName": "firefox",
+                  "results": [
+                    {
+                      "workerIndex": 5,
+                      "status": "passed",
+                      "duration": 1039,
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "attachments": [
+                        {
+                          "name": "screenshot",
+                          "contentType": "image/png",
+                          "path": "/Users/seansaoirse/Desktop/react-pw/test-results/past-launches.e2e.ts-Searching-displaying-rend-9f487-g-for-DemoSat-will-render-appropriate-info-text-firefox/test-finished-1.png"
+                        }
+                      ]
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "file": "past-launches.e2e.ts",
+              "line": 80,
+              "column": 2
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": []
+}
